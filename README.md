@@ -14,5 +14,17 @@ Veremos lógica do ponto de vista da linguagem Swift acompanhada de testes unit�
 
 Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.com.br/logica-de-programacao/tdd-junto-com-logica-assim-tao-cedo/).
 
+## Listas de Exercícios
+
+- [X] [Variáveis](ProgrammingLogicChallenges/Variables/README.md)
+- [ ] Funções
+- [ ] Estruturas Condicionais
+- [ ] Laços de Repetição
+- [ ] Arrays
+- [ ] Strings
+- [ ] Programação Orientada a Objetos
+- [ ] Recursividade
+- [ ] Algoritimos Consagrados
+
 [swift-image]: https://img.shields.io/badge/swift-5.6-orange.svg
 [swift-url]: https://www.swift.org/blog/swift-5.6-released/
