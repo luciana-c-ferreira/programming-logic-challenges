@@ -11,12 +11,17 @@ import XCTest
 class VariablesTests: XCTestCase {
     func testSwapTheValueOfTwoVariables() {
         let result = swapTheValueOfTwoVariables()
-        XCTAssert(result.a == 555)
-        XCTAssert(result.b == 999)
+        XCTAssertEqual(result.a, 555)
+        XCTAssertEqual(result.b, 999)
     }
     
     func testTwiceAnyNumber() {
         let result = twiceAnyNumber(number: 10)
-        XCTAssert(20 == result)
+        XCTAssertEqual(result, 20)
+    }
+    
+    func testSquareArea() {
+        let result = squareArea(firstSide: 23, secondSide: 2)
+        XCTAssertEqual(result, 46)
     }
 }
