@@ -1,3 +1,7 @@
+ # Variáveis - Lista de Exercícios Nível 0
+
+ Mais fácil que a Seleção Brasileira…
+ 
  ## 1. Trocar o valor de duas variáveis
 
  Escreva um algoritmo que armazene o valor 999 na variável `a` e o valor 555 na variável `b`.
