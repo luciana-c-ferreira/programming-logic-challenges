@@ -13,15 +13,19 @@
  Este é o primeiro exercício de lógica que abre a série, ele é extremamente fácil de resolver e tem como objetivo te ajudar na familiarização dos exercícios.
 
  Começamos com as dua variáveis…
- ```
+ 
+ ```swift
  a = 999
  b = 555
  ```
+ 
  Você precisará trocar o valor entre elas, ou seja…
- ```
+ 
+ ```swift
  a = 555
  b = 999
  ```
+ 
  Se você estivesse na faculdade resolvendo este exercício como você faria ?
 
  Você provavelmente se preocuparia em ler a entrada e mostrar a saída, certo?
