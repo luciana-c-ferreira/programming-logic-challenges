@@ -14,4 +14,9 @@ class VariablesTests: XCTestCase {
         XCTAssert(result.a == 555)
         XCTAssert(result.b == 999)
     }
+    
+    func testTwiceAnyNumber() {
+        let result = twiceAnyNumber(number: 10)
+        XCTAssert(20 == result)
+    }
 }

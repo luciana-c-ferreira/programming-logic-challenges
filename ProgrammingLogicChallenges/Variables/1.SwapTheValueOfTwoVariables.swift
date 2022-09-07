@@ -31,11 +31,9 @@ import Foundation
 
  Agora basta implementar o código e ver os testes passarem.
  */
-
 public func swapTheValueOfTwoVariables() -> (a: Int, b: Int) {
     var a = 999
     var b = 555
-    
     
     return (a: a, b: b)
 }
