@@ -11,6 +11,7 @@
 		75F080A628C925DD00139EF6 /* 1.SwapTheValueOfTwoVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080A528C925DD00139EF6 /* 1.SwapTheValueOfTwoVariables.swift */; };
 		75F080A928C9289800139EF6 /* 2.TwiceAnyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080A828C9289800139EF6 /* 2.TwiceAnyNumber.swift */; };
 		75F080AB28C92ADE00139EF6 /* 3.SquareArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080AA28C92ADE00139EF6 /* 3.SquareArea.swift */; };
+		75F080AD28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		75F080A728C925DD00139EF6 /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F080A828C9289800139EF6 /* 2.TwiceAnyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.TwiceAnyNumber.swift; sourceTree = "<group>"; };
 		75F080AA28C92ADE00139EF6 /* 3.SquareArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.SquareArea.swift; sourceTree = "<group>"; };
+		75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.PredecessorAndSuccessorOfAnyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				75F080A528C925DD00139EF6 /* 1.SwapTheValueOfTwoVariables.swift */,
 				75F080A828C9289800139EF6 /* 2.TwiceAnyNumber.swift */,
 				75F080AA28C92ADE00139EF6 /* 3.SquareArea.swift */,
+				75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */,
 			);
 			path = Variables;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F080A928C9289800139EF6 /* 2.TwiceAnyNumber.swift in Sources */,
+				75F080AD28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift in Sources */,
 				75F080AB28C92ADE00139EF6 /* 3.SquareArea.swift in Sources */,
 				75F080A628C925DD00139EF6 /* 1.SwapTheValueOfTwoVariables.swift in Sources */,
 			);

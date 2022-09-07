@@ -24,4 +24,10 @@ class VariablesTests: XCTestCase {
         let result = squareArea(firstSide: 23, secondSide: 2)
         XCTAssertEqual(result, 46)
     }
+    
+    func testPredecessorAndSuccessorOfAnyNumber() {
+        let result = predecessorAndSuccessorOfAnyNumber(number: 1234)
+        XCTAssertEqual(result.predecessor, 1233)
+        XCTAssertEqual(result.successor, 1235)
+    }
 }
