@@ -38,6 +38,7 @@
 		75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.PredecessorAndSuccessorOfAnyNumber.swift; sourceTree = "<group>"; };
 		75F080AE28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.SimpleAverageOfThreeNumbers.swift; sourceTree = "<group>"; };
 		75F080B028C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.DiscoverTheDaysOfNMonths.swift; sourceTree = "<group>"; };
+		75F080B228C932E300139EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */,
 				75F080AE28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift */,
 				75F080B028C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift */,
+				75F080B228C932E300139EF6 /* README.md */,
 			);
 			path = Variables;
 			sourceTree = "<group>";
