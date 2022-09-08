@@ -20,4 +20,9 @@ jobs:
       - name: Test Variables
         run: 
           xcodebuild -scheme Variables test
-          
+      - name: Build Functions
+        run:
+          xcodebuild -scheme Functions build
+      - name: Test Functions
+        run:
+          xcodebuild -scheme Functions test
