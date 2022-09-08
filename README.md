@@ -20,7 +20,7 @@ Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.co
 
 - [X] [Variáveis](Variables/README.md)
 - [X] [Funções](Functions/README.md)
-- [X] [Estruturas Condicionais](Conditional\ Structures/README.md)
+- [X] [Estruturas Condicionais](Conditional%20Structures/README.md)
 - [ ] Laços de Repetição
 - [ ] Arrays
 - [ ] Strings
