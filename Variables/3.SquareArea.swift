@@ -13,5 +13,7 @@ import Foundation
 public func squareArea(firstSide: Int, secondSide: Int) -> Int {
     var result = 0
     
+    result = firstSide * secondSide
+    
     return result
 }
