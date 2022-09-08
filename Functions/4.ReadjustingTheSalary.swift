@@ -17,5 +17,7 @@ public func readjustingTheSalary(salary: Double, reajust: Double) -> Double {
 private func calculateReadjustTheSalary(salary: Double, reajust: Double) -> Double {
     var result: Double = 0
     
+    result = salary * reajust
+    
     return result
 }
