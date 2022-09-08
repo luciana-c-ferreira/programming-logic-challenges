@@ -14,15 +14,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build Variables
+      - name: Build CI
         run: 
-          xcodebuild -scheme Variables build  
-      - name: Test Variables
+          xcodebuild -scheme CI build
+      - name: Test CI
         run: 
-          xcodebuild -scheme Variables test
-      - name: Build Functions
-        run:
-          xcodebuild -scheme Functions build
-      - name: Test Functions
-        run:
-          xcodebuild -scheme Functions test
+          xcodebuild -scheme CI test

@@ -22,25 +22,33 @@ public func functionsForTheFourArithmeticOperations(operation: ArithmeticOperati
 
 private func addition(number1: Int, number2: Int) -> Int {
     var result = 0
+    
     result = number1 + number2
+    
     return result
 }
 
 private func subtraction(number1: Int, number2: Int) -> Int {
     var result = 0
+    
     result = number1 - number2
+    
     return result
 }
 
 private func multiplication(number1: Int, number2: Int) -> Int {
     var result = 0
+    
     result = number1 * number2
+    
     return result
 }
 
 private func division(number1: Int, number2: Int) -> Int {
     var result = 0
+    
     result = number1 / number2
+    
     return result
 }
 
