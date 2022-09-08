@@ -1,7 +1,7 @@
 import Foundation
 
 /**
- # 1. Funções para as 4 operações aritméticas
+ # Funções para as 4 operações aritméticas
 
  Escreva uma função para cada uma das quatro operações matemáticas simples.
 

@@ -17,6 +17,7 @@
 		77BF12BD28C99FB00027C22A /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12BC28C99FB00027C22A /* FunctionsTests.swift */; };
 		77BF12C728C9A0220027C22A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77BF12C628C9A0220027C22A /* README.md */; };
 		77BF12CA28C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */; };
+		77BF12D928C9A8C60027C22A /* 2.CostOfManufacturingACar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +51,11 @@
 		77BF12BC28C99FB00027C22A /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		77BF12C628C9A0220027C22A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.FunctionsForTheFourArithmeticOperations.swift; sourceTree = "<group>"; };
-		77BF12CC28C9A40C0027C22A /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Variables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77BF12CD28C9A40C0027C22A /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77BF12CE28C9A40C0027C22A /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Functions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77BF12CF28C9A40C0027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF12D428C9A8B10027C22A /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Variables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF12D528C9A8B10027C22A /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF12D628C9A8B10027C22A /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Functions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF12D728C9A8B10027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CostOfManufacturingACar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +97,10 @@
 				75F0809928C924F600139EF6 /* VariablesTests */,
 				77BF12B128C99FB00027C22A /* Functions */,
 				77BF12BB28C99FB00027C22A /* FunctionsTests */,
-				77BF12CC28C9A40C0027C22A /* Variables.framework */,
-				77BF12CD28C9A40C0027C22A /* VariablesTests.xctest */,
-				77BF12CE28C9A40C0027C22A /* Functions.framework */,
-				77BF12CF28C9A40C0027C22A /* FunctionsTests.xctest */,
+				77BF12D428C9A8B10027C22A /* Variables.framework */,
+				77BF12D528C9A8B10027C22A /* VariablesTests.xctest */,
+				77BF12D628C9A8B10027C22A /* Functions.framework */,
+				77BF12D728C9A8B10027C22A /* FunctionsTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +133,7 @@
 			children = (
 				77BF12C628C9A0220027C22A /* README.md */,
 				77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */,
+				77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -178,7 +181,7 @@
 			);
 			name = Variables;
 			productName = Variables;
-			productReference = 77BF12CC28C9A40C0027C22A /* Variables.framework */;
+			productReference = 77BF12D428C9A8B10027C22A /* Variables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75F0809428C924F600139EF6 /* VariablesTests */ = {
@@ -196,7 +199,7 @@
 			);
 			name = VariablesTests;
 			productName = VariablesTests;
-			productReference = 77BF12CD28C9A40C0027C22A /* VariablesTests.xctest */;
+			productReference = 77BF12D528C9A8B10027C22A /* VariablesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12AF28C99FB00027C22A /* Functions */ = {
@@ -214,7 +217,7 @@
 			);
 			name = Functions;
 			productName = Functions;
-			productReference = 77BF12CE28C9A40C0027C22A /* Functions.framework */;
+			productReference = 77BF12D628C9A8B10027C22A /* Functions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12B628C99FB00027C22A /* FunctionsTests */ = {
@@ -232,7 +235,7 @@
 			);
 			name = FunctionsTests;
 			productName = FunctionsTests;
-			productReference = 77BF12CF28C9A40C0027C22A /* FunctionsTests.xctest */;
+			productReference = 77BF12D728C9A8B10027C22A /* FunctionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BF12CA28C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift in Sources */,
+				77BF12D928C9A8C60027C22A /* 2.CostOfManufacturingACar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,10 +644,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.FunctionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,10 +661,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.FunctionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
