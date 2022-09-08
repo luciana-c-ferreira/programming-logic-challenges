@@ -2,6 +2,7 @@
 
 > Lógica de programação para gente grande, aprenda lógica com o apoio de testes unitários!
 
+[![CI](https://github.com/luciana-c-ferreira/programming-logic-challenges/actions/workflows/ios.yml/badge.svg?branch=solutions)](https://github.com/luciana-c-ferreira/programming-logic-challenges/actions/workflows/ios.yml)
 [![Swift Version][swift-image]][swift-url]
 
 Seja bem vindo(a) a seção Lógica de programação!
