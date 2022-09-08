@@ -98,9 +98,7 @@ public func costOfManufacturingACar(factoryCost: Double) -> Double {
 ```swift
 private func finalCost(factoryCost: Double) -> Double {
     var result: Double = 0
-    let distributorCost = factoryCost * 0.28
-    let taxCost = factoryCost * 0.45
-    result = factoryCost + distributorCost + taxCost
+    
     return result
 }
 ```
