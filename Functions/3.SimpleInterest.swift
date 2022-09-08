@@ -28,5 +28,7 @@ public func simpleInterest(capital: Double, tax: Double, periods: Int) -> Double
 private func calculateSimpleInterest(capital: Double, tax: Double, periods: Int) -> Double {
     var result: Double = 0
     
+    result = capital * tax * Double(periods)
+    
     return result
 }
