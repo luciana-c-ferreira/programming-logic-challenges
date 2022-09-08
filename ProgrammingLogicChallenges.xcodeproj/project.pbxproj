@@ -67,22 +67,22 @@
 		77BF12BC28C99FB00027C22A /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		77BF12C628C9A0220027C22A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.FunctionsForTheFourArithmeticOperations.swift; sourceTree = "<group>"; };
-		77BF12D428C9A8B10027C22A /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
-		77BF12D528C9A8B10027C22A /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
-		77BF12D628C9A8B10027C22A /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
 		77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CostOfManufacturingACar.swift; sourceTree = "<group>"; };
 		77BF12DA28C9AD180027C22A /* 3.SimpleInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.SimpleInterest.swift; sourceTree = "<group>"; };
 		77BF12DC28C9B0160027C22A /* 4.ReadjustingTheSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.ReadjustingTheSalary.swift; sourceTree = "<group>"; };
 		77BF12EF28CA58F60027C22A /* Conditional_StructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional_StructuresTests.swift; sourceTree = "<group>"; };
-		77BF12FA28CA59430027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
 		77BF12FB28CA59A20027C22A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		77BF12FD28CA5B6B0027C22A /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
 		77BF12FE28CA5B6B0027C22A /* 1.OddOrEvenValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.OddOrEvenValue.swift; sourceTree = "<group>"; };
-		77BF130028CA5B6B0027C22A /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
 		77BF130128CA5BAE0027C22A /* 2.PositiveOrNegativeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.PositiveOrNegativeValue.swift; sourceTree = "<group>"; };
 		77BF130328CA5BDD0027C22A /* 3.GreaterThanTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.GreaterThanTen.swift; sourceTree = "<group>"; };
 		77BF130528CA5C7E0027C22A /* 4.CelsiusFahrenheitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.CelsiusFahrenheitConverter.swift; sourceTree = "<group>"; };
 		77BF130728CA5CB20027C22A /* 5.SecondDegreeEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.SecondDegreeEquation.swift; sourceTree = "<group>"; };
+		77BF130928CA68270027C22A /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
+		77BF130A28CA68280027C22A /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
+		77BF130B28CA68280027C22A /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
+		77BF130C28CA68280027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
+		77BF130D28CA68280027C22A /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
+		77BF130E28CA68280027C22A /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +250,7 @@
 			);
 			name = Variables;
 			productName = Variables;
-			productReference = 77BF12D428C9A8B10027C22A /* Variables.framework */;
+			productReference = 77BF130928CA68270027C22A /* Variables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75F0809428C924F600139EF6 /* VariablesTests */ = {
@@ -268,7 +268,7 @@
 			);
 			name = VariablesTests;
 			productName = VariablesTests;
-			productReference = 77BF12D528C9A8B10027C22A /* VariablesTests.xctest */;
+			productReference = 77BF130A28CA68280027C22A /* VariablesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12AF28C99FB00027C22A /* Functions */ = {
@@ -286,7 +286,7 @@
 			);
 			name = Functions;
 			productName = Functions;
-			productReference = 77BF12D628C9A8B10027C22A /* Functions.framework */;
+			productReference = 77BF130B28CA68280027C22A /* Functions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12B628C99FB00027C22A /* FunctionsTests */ = {
@@ -304,7 +304,7 @@
 			);
 			name = FunctionsTests;
 			productName = FunctionsTests;
-			productReference = 77BF12FA28CA59430027C22A /* FunctionsTests.xctest */;
+			productReference = 77BF130C28CA68280027C22A /* FunctionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12E228CA58F60027C22A /* Conditional Structures */ = {
@@ -322,7 +322,7 @@
 			);
 			name = "Conditional Structures";
 			productName = "Conditional Structures";
-			productReference = 77BF12FD28CA5B6B0027C22A /* Conditional_Structures.framework */;
+			productReference = 77BF130D28CA68280027C22A /* Conditional_Structures.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12E928CA58F60027C22A /* Conditional StructuresTests */ = {
@@ -340,7 +340,7 @@
 			);
 			name = "Conditional StructuresTests";
 			productName = "Conditional StructuresTests";
-			productReference = 77BF130028CA5B6B0027C22A /* Conditional StructuresTests.xctest */;
+			productReference = 77BF130E28CA68280027C22A /* Conditional StructuresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

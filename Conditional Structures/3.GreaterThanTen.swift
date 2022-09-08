@@ -14,5 +14,7 @@ public func greaterThanTen(number: Int) -> Bool {
 private func isGreaterThanTen(number: Int) -> Bool {
     var result = false
     
+    result = number > 10 ? true : false
+    
     return result
 }

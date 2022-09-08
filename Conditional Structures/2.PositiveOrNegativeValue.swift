@@ -14,5 +14,7 @@ public func positiveOrNegativeValue(number: Int) -> Bool {
 private func isPositive(number: Int) -> Bool {
     var result = false
     
+    result = number >= 0 ? true : false
+    
     return result
 }

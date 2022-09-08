@@ -28,17 +28,23 @@ public func secondDegreeEquation(a: Int, b: Int, c: Int) -> (x1: Int, x2: Int, d
 private func delta(a: Int, b: Int, c: Int) -> Double {
     var result = 0
     
+    result = (b * b) - (4 * a * c)
+    
     return Double(result)
 }
 
 private func x1(a: Int, b: Int, c: Int) -> Int {
     var result = 0
     
+    result = (-b + Int(delta(a: a, b: b, c: c).squareRoot())) / (2 * a)
+    
     return result
 }
 
 private func x2(a: Int, b: Int, c: Int) -> Int {
     var result = 0
+    
+    result = (-b - Int(delta(a: a, b: b, c: c).squareRoot())) / (2 * a)
     
     return result
 }

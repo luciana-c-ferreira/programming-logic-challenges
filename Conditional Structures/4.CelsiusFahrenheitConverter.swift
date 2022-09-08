@@ -27,11 +27,15 @@ public func celsiusFahrenheitConverter(value: Int, toUnit: TemptureUnit) -> Int 
 private func toCelsius(fahrenheitValue: Int) -> Int {
     var result = 0
     
+    result = (5 * (fahrenheitValue - 32)) / 9
+    
     return result
 }
 
 private func toFahrenheit(celsiusValue: Int) -> Int {
     var result = 0
+    
+    result = ((celsiusValue * 9) + (5 * 32)) / 5
     
     return result
 }

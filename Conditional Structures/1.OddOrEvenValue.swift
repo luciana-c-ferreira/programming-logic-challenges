@@ -27,5 +27,7 @@ public func oddOrEvenValue(number: Int) -> Bool {
 private func isEven(number: Int) -> Bool {
     var result = false
     
+    result = number % 2 == 0 ? true : false
+    
     return result
 }

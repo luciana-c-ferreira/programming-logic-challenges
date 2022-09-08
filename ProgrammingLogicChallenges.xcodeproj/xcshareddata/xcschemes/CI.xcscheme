@@ -34,6 +34,20 @@
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF12E228CA58F60027C22A"
+               BuildableName = "Conditional_Structures.framework"
+               BlueprintName = "Conditional Structures"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -65,6 +79,18 @@
                BlueprintIdentifier = "75F0809428C924F600139EF6"
                BuildableName = "VariablesTests.xctest"
                BlueprintName = "VariablesTests"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF12E928CA58F60027C22A"
+               BuildableName = "Conditional StructuresTests.xctest"
+               BlueprintName = "Conditional StructuresTests"
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </TestableReference>
