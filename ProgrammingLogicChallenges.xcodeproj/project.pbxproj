@@ -19,6 +19,7 @@
 		77BF12CA28C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */; };
 		77BF12D928C9A8C60027C22A /* 2.CostOfManufacturingACar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */; };
 		77BF12DB28C9AD180027C22A /* 3.SimpleInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12DA28C9AD180027C22A /* 3.SimpleInterest.swift */; };
+		77BF12DD28C9B0160027C22A /* 4.ReadjustingTheSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12DC28C9B0160027C22A /* 4.ReadjustingTheSalary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		77BF12D728C9A8B10027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CostOfManufacturingACar.swift; sourceTree = "<group>"; };
 		77BF12DA28C9AD180027C22A /* 3.SimpleInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.SimpleInterest.swift; sourceTree = "<group>"; };
+		77BF12DC28C9B0160027C22A /* 4.ReadjustingTheSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.ReadjustingTheSalary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */,
 				77BF12D828C9A8C60027C22A /* 2.CostOfManufacturingACar.swift */,
 				77BF12DA28C9AD180027C22A /* 3.SimpleInterest.swift */,
+				77BF12DC28C9B0160027C22A /* 4.ReadjustingTheSalary.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				77BF12CA28C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift in Sources */,
 				77BF12DB28C9AD180027C22A /* 3.SimpleInterest.swift in Sources */,
+				77BF12DD28C9B0160027C22A /* 4.ReadjustingTheSalary.swift in Sources */,
 				77BF12D928C9A8C60027C22A /* 2.CostOfManufacturingACar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
