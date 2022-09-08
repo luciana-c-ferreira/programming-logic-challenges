@@ -4,6 +4,7 @@
 
 [![CI](https://github.com/luciana-c-ferreira/programming-logic-challenges/actions/workflows/ios.yml/badge.svg?branch=solutions)](https://github.com/luciana-c-ferreira/programming-logic-challenges/actions/workflows/ios.yml)
 [![Swift Version][swift-image]][swift-url]
+[![Dev Furia][devfuria-image]][devfuria-url]
 
 Seja bem vindo(a) a seção Lógica de programação!
 
@@ -29,3 +30,5 @@ Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.co
 
 [swift-image]: https://img.shields.io/badge/swift-5.6-orange.svg
 [swift-url]: https://www.swift.org/blog/swift-5.6-released/
+[devfuria-image]: https://img.shields.io/badge/devfuria-lógica-blue.svg
+[devfuria-url]: http://devfuria.com.br/logica-de-programacao/
