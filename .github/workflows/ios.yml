@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ "solutions" ]
+  pull_request:
+    branches: [ "solutions" ]
+
+jobs:
+  build:
+    name: Build and Test All List Exercises
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build Variables
+        run: 
+          xcodebuild -scheme Variables build  
+      - name: Test Variables
+        run: 
+          xcodebuild -scheme Variables test
+          
