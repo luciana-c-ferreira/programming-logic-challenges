@@ -30,9 +30,9 @@
 		75F0809028C924F600139EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F0809A28C924F600139EF6 /* VariablesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesTests.swift; sourceTree = "<group>"; };
 		75F0809C28C924F600139EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75F080A428C925DD00139EF6 /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Variables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F080A428C925DD00139EF6 /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/ProgrammingLogicChallenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
 		75F080A528C925DD00139EF6 /* 1.SwapTheValueOfTwoVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.SwapTheValueOfTwoVariables.swift; sourceTree = "<group>"; };
-		75F080A728C925DD00139EF6 /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F080A728C925DD00139EF6 /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/ProgrammingLogicChallenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
 		75F080A828C9289800139EF6 /* 2.TwiceAnyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.TwiceAnyNumber.swift; sourceTree = "<group>"; };
 		75F080AA28C92ADE00139EF6 /* 3.SquareArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.SquareArea.swift; sourceTree = "<group>"; };
 		75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.PredecessorAndSuccessorOfAnyNumber.swift; sourceTree = "<group>"; };
@@ -64,8 +64,6 @@
 			children = (
 				75F0808E28C924F600139EF6 /* Variables */,
 				75F0809928C924F600139EF6 /* VariablesTests */,
-				75F080A428C925DD00139EF6 /* Variables.framework */,
-				75F080A728C925DD00139EF6 /* VariablesTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
