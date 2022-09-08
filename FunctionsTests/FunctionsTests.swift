@@ -30,4 +30,9 @@ class FunctionsTests: XCTestCase {
         let result = simpleInterest(capital: 16000, tax: 0.04, periods: 4)
         XCTAssertEqual(result, 2560)
     }
+    
+    func testReadjustingTheSalary() {
+        let result = readjustingTheSalary(salary: 1000, reajust: 0.15)
+        XCTAssertEqual(result, 150)
+    }
 }
