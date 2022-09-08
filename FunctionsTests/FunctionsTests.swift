@@ -25,4 +25,9 @@ class FunctionsTests: XCTestCase {
         let result = costOfManufacturingACar(factoryCost: 10000)
         XCTAssertEqual(result, 17300.0)
     }
+    
+    func testSimpleInterest() {
+        let result = simpleInterest(capital: 16000, tax: 0.04, periods: 4)
+        XCTAssertEqual(result, 2560)
+    }
 }
