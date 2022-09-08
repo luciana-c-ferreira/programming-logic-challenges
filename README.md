@@ -17,8 +17,8 @@ Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.co
 
 ## Listas de Exercícios
 
-- [X] [Variáveis](ProgrammingLogicChallenges/Variables/README.md)
-- [ ] Funções
+- [X] [Variáveis](Variables/README.md)
+- [ ] [Funções](Functions/README.md)
 - [ ] Estruturas Condicionais
 - [ ] Laços de Repetição
 - [ ] Arrays
