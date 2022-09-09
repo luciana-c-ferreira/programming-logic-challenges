@@ -48,6 +48,20 @@
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF132B28CAA4A30027C22A"
+               BuildableName = "Loops.framework"
+               BlueprintName = "Loops"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -91,6 +105,18 @@
                BlueprintIdentifier = "77BF12E928CA58F60027C22A"
                BuildableName = "Conditional StructuresTests.xctest"
                BlueprintName = "Conditional StructuresTests"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF133228CAA4A30027C22A"
+               BuildableName = "LoopsTests.xctest"
+               BlueprintName = "LoopsTests"
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </TestableReference>

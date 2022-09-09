@@ -24,6 +24,14 @@ import Foundation
  Quando dois números `n1` e `n2` satisfazem `mdc(n1, n2) = 1`, dizemos que `n1` e `n2` são primos entre si ou coprimos. Isso significa que não existe nenhum número maior do que 1 que divide `n1` e `n2` simultaneamente.
  */
 public func mdc(number1: Int, number2: Int) -> Int {
+    let greater = number1 > number2 ? number1 : number2
+    let less = number1 < number2 ? number1 : number2
+    print("mdc(\(greater), \(less)) = mdc(\(less), \(greater % less))")
     
-    return 0
+    if greater % less == 0 {
+        print("mdc = \(less)\n")
+        return less
+    }
+    
+    return mdc(number1: less, number2: greater % less)
 }

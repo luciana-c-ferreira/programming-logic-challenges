@@ -16,12 +16,15 @@ import Foundation
  Outro ponto a comentar é a questão dos testes, você verá que é difícil determinar o quanto de testes seriam suficientes para garantir o correto funcionamento do algoritmo.
  */
 public func isPrime(number: Int) -> Bool {
-    
+    for i in 2 ..< number {
+        if isExactDivision(dividend: number, divisor: i) {
+            return false
+        }
+    }
     return true
 }
 
 /// Função que descobre se dois números possuem divisão exata.
 private func isExactDivision(dividend: Int, divisor: Int) -> Bool {
-    
-    return true
+    return dividend % divisor == 0
 }

@@ -19,6 +19,12 @@ import Foundation
  */
 public func addDigits(number: Int) -> Int {
     var result = 0
+    var tmpNumber = number
+    
+    while tmpNumber != 0 {
+        result += tmpNumber % 10
+        tmpNumber /= 10
+    }
     
     return result
 }

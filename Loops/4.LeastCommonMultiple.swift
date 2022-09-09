@@ -16,7 +16,9 @@ Comentários
  Invertendo as contas, temos `MMC = a . b / MDC`.
  */
 public func mmc(number1: Int, number2: Int) -> Int {
+    let greater = number1 > number2 ? number1 : number2
+    let less = number1 < number2 ? number1 : number2
     var result = 0
-    
+    result = (greater * less) / mdc(number1: greater, number2: less)
     return result
 }

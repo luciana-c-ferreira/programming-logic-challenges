@@ -9,5 +9,8 @@ public func predecessorAndSuccessorOfAnyNumber(number: Int) -> (predecessor: Int
     var predecessor = 0
     var successor = 0
     
+    predecessor = number - 1
+    successor = number + 1
+    
     return (predecessor: predecessor, successor: successor)
 }
