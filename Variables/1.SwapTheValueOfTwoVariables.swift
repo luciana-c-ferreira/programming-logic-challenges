@@ -35,9 +35,5 @@ public func swapTheValueOfTwoVariables() -> (a: Int, b: Int) {
     var a = 999
     var b = 555
     
-    let temp = a
-    a = b
-    b = temp
-    
     return (a: a, b: b)
 }
