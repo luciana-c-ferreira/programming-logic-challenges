@@ -10,7 +10,5 @@ import Foundation
 public func simpleAverageOfThreeNumbers(number1: Int, number2: Int, number3: Int) -> Int {
     var result = 0
     
-    result = (number1 + number2 + number3) / 3
-    
     return result
 }

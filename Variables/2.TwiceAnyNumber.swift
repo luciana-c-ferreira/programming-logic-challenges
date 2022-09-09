@@ -12,7 +12,5 @@ import Foundation
 public func twiceAnyNumber(number: Int) -> Int {
     var result = 0
     
-    result = number * 2
-    
     return result
 }

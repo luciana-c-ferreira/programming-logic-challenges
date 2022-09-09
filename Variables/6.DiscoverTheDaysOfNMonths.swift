@@ -8,7 +8,5 @@ import Foundation
 public func discoverTheDaysOfNMonths(nMoths: Int) -> Int {
     var result = 0
     
-    result = nMoths * 30
-    
     return result
 }
