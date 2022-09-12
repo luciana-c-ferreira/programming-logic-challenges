@@ -21,8 +21,8 @@ Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.co
 - [X] [Variáveis](Variables/README.md)
 - [X] [Funções](Functions/README.md)
 - [X] [Estruturas Condicionais](Conditional%20Structures/README.md)
-- [ ] Laços de Repetição
-- [ ] Arrays
+- [X] [Laços de Repetição](Loops/README.md)
+- [X] [Arrays](Arrays/README.md)
 - [ ] Strings
 - [ ] Programação Orientada a Objetos
 - [ ] Recursividade
