@@ -62,6 +62,20 @@
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF137128CFE3CC0027C22A"
+               BuildableName = "Arrays.framework"
+               BlueprintName = "Arrays"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -117,6 +131,18 @@
                BlueprintIdentifier = "77BF133228CAA4A30027C22A"
                BuildableName = "LoopsTests.xctest"
                BlueprintName = "LoopsTests"
+               ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77BF137828CFE3CC0027C22A"
+               BuildableName = "ArraysTests.xctest"
+               BlueprintName = "ArraysTests"
                ReferencedContainer = "container:ProgrammingLogicChallenges.xcodeproj">
             </BuildableReference>
          </TestableReference>
