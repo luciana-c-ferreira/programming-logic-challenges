@@ -23,7 +23,7 @@ Talvez você precise saber um pouco sobre [testes unitários](http://devfuria.co
 - [X] [Estruturas Condicionais](Conditional%20Structures/README.md)
 - [X] [Laços de Repetição](Loops/README.md)
 - [X] [Arrays](Arrays/README.md)
-- [ ] Strings
+- [X] [Strings](Strings/README.md)
 - [ ] Programação Orientada a Objetos
 - [ ] Recursividade
 - [ ] Algoritimos Consagrados
