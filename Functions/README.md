@@ -35,6 +35,8 @@ Adição:
 private func addition(number1: Int, number2: Int) -> Int {
     var result = 0
     
+    result = number1 + number2
+    
     return result
 }
 ```
@@ -44,6 +46,8 @@ Subtração:
 ```swift
 private func subtraction(number1: Int, number2: Int) -> Int {
     var result = 0
+    
+    result = number1 - number2
     
     return result
 }
@@ -55,6 +59,8 @@ Multiplicação:
 private func multiplication(number1: Int, number2: Int) -> Int {
     var result = 0
     
+    result = number1 * number2
+    
     return result
 }
 ```
@@ -64,6 +70,8 @@ Divisão:
 ```swift
 private func division(number1: Int, number2: Int) -> Int {
     var result = 0
+    
+    result = number1 / number2
     
     return result
 }
@@ -93,11 +101,13 @@ Função para ser preenchida:
 public func costOfManufacturingACar(factoryCost: Double) -> Double {
     return finalCost(factoryCost: factoryCost)
 }
-```
 
-```swift
 private func finalCost(factoryCost: Double) -> Double {
     var result: Double = 0
+    
+    let distributorCost = factoryCost * 0.28
+    let taxCost = factoryCost * 0.45
+    result = factoryCost + distributorCost + taxCost
     
     return result
 }
@@ -126,11 +136,11 @@ Vamos imaginar o seguinte cenário: um empréstimo de R$ 16.000,00 sobre a taxa 
 public func simpleInterest(capital: Double, tax: Double, periods: Int) -> Double {
     return calculateSimpleInterest(capital: capital, tax: tax, periods: periods)
 }
-```
 
-```swift
 private func calculateSimpleInterest(capital: Double, tax: Double, periods: Int) -> Double {
     var result: Double = 0
+    
+    result = capital * tax * Double(periods)
     
     return result
 }
@@ -152,6 +162,8 @@ public func readjustingTheSalary(salary: Double, reajust: Double) -> Double {
 
 private func calculateReadjustTheSalary(salary: Double, reajust: Double) -> Double {
     var result: Double = 0
+    
+    result = salary * reajust
     
     return result
 }

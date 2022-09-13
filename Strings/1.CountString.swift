@@ -11,4 +11,16 @@ import Foundation
 
  String é um conjunto de caracteres.
  */
-
+public func countString(value: String) -> Int {
+    var count = 0
+    
+//    // Solução 1
+//    for _ in value {
+//        count += 1
+//    }
+    
+    // Solução 2
+    count = value.count
+    
+    return count
+}

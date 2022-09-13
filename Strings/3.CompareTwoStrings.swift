@@ -9,3 +9,10 @@ import Foundation
 
  Este é mais um exercício para exercitarmos laços de repetição.
  */
+public func compareTwoStrings(string1: String, string2: String) -> Bool {
+    var result = false
+    
+    result = string1 == string2
+    
+    return result
+}

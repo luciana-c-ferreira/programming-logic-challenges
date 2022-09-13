@@ -104,25 +104,25 @@
 		75F080AE28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.SimpleAverageOfThreeNumbers.swift; sourceTree = "<group>"; };
 		75F080B028C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.DiscoverTheDaysOfNMonths.swift; sourceTree = "<group>"; };
 		75F080B228C932E300139EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		773D7B3728D0F28E001A299E /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
-		773D7B3828D0F28E001A299E /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
-		773D7B3928D0F28E001A299E /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
-		773D7B3A28D0F28E001A299E /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
-		773D7B3B28D0F28E001A299E /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
-		773D7B3C28D0F28E001A299E /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
-		773D7B3D28D0F28E001A299E /* Loops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loops.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Loops.framework"; sourceTree = "<absolute>"; };
-		773D7B3E28D0F28E001A299E /* LoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoopsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/LoopsTests.xctest"; sourceTree = "<absolute>"; };
-		773D7B3F28D0F28E001A299E /* Arrays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arrays.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Arrays.framework"; sourceTree = "<absolute>"; };
-		773D7B4028D0F28E001A299E /* ArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArraysTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/ArraysTests.xctest"; sourceTree = "<absolute>"; };
 		773D7B5228D0F2DF001A299E /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
 		773D7B5B28D0F33F001A299E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		773D7B5D28D0F4D5001A299E /* Strings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Strings.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Strings.framework"; sourceTree = "<absolute>"; };
 		773D7B5E28D0F4D5001A299E /* 1.CountString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.CountString.swift; sourceTree = "<group>"; };
-		773D7B6028D0F4D5001A299E /* StringsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StringsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/StringsTests.xctest"; sourceTree = "<absolute>"; };
 		773D7B6128D0F4E3001A299E /* 2.CountVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CountVowels.swift; sourceTree = "<group>"; };
 		773D7B6328D0F4F3001A299E /* 3.CompareTwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.CompareTwoStrings.swift; sourceTree = "<group>"; };
 		773D7B6528D0F50B001A299E /* 4.ConcatenateTwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.ConcatenateTwoStrings.swift; sourceTree = "<group>"; };
 		773D7B6728D0F51D001A299E /* 5.InvertString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.InvertString.swift; sourceTree = "<group>"; };
+		773D7B8728D0F7F6001A299E /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
+		773D7B8828D0F7F6001A299E /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B8928D0F7F6001A299E /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
+		773D7B8A28D0F7F6001A299E /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B8B28D0F7F6001A299E /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
+		773D7B8C28D0F7F6001A299E /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B8D28D0F7F6001A299E /* Loops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loops.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Loops.framework"; sourceTree = "<absolute>"; };
+		773D7B8E28D0F7F6001A299E /* LoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoopsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/LoopsTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B8F28D0F7F6001A299E /* Arrays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arrays.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Arrays.framework"; sourceTree = "<absolute>"; };
+		773D7B9028D0F7F6001A299E /* ArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArraysTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/ArraysTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B9128D0F7F6001A299E /* Strings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Strings.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Strings.framework"; sourceTree = "<absolute>"; };
+		773D7B9228D0F7F6001A299E /* StringsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StringsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/StringsTests.xctest"; sourceTree = "<absolute>"; };
 		77BF12BC28C99FB00027C22A /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		77BF12C628C9A0220027C22A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.FunctionsForTheFourArithmeticOperations.swift; sourceTree = "<group>"; };
@@ -447,7 +447,7 @@
 			);
 			name = Variables;
 			productName = Variables;
-			productReference = 773D7B3728D0F28E001A299E /* Variables.framework */;
+			productReference = 773D7B8728D0F7F6001A299E /* Variables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75F0809428C924F600139EF6 /* VariablesTests */ = {
@@ -465,7 +465,7 @@
 			);
 			name = VariablesTests;
 			productName = VariablesTests;
-			productReference = 773D7B3828D0F28E001A299E /* VariablesTests.xctest */;
+			productReference = 773D7B8828D0F7F6001A299E /* VariablesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		773D7B4528D0F2DF001A299E /* Strings */ = {
@@ -483,7 +483,7 @@
 			);
 			name = Strings;
 			productName = Strings;
-			productReference = 773D7B5D28D0F4D5001A299E /* Strings.framework */;
+			productReference = 773D7B9128D0F7F6001A299E /* Strings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		773D7B4C28D0F2DF001A299E /* StringsTests */ = {
@@ -501,7 +501,7 @@
 			);
 			name = StringsTests;
 			productName = StringsTests;
-			productReference = 773D7B6028D0F4D5001A299E /* StringsTests.xctest */;
+			productReference = 773D7B9228D0F7F6001A299E /* StringsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12AF28C99FB00027C22A /* Functions */ = {
@@ -519,7 +519,7 @@
 			);
 			name = Functions;
 			productName = Functions;
-			productReference = 773D7B3928D0F28E001A299E /* Functions.framework */;
+			productReference = 773D7B8928D0F7F6001A299E /* Functions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12B628C99FB00027C22A /* FunctionsTests */ = {
@@ -537,7 +537,7 @@
 			);
 			name = FunctionsTests;
 			productName = FunctionsTests;
-			productReference = 773D7B3A28D0F28E001A299E /* FunctionsTests.xctest */;
+			productReference = 773D7B8A28D0F7F6001A299E /* FunctionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12E228CA58F60027C22A /* Conditional Structures */ = {
@@ -555,7 +555,7 @@
 			);
 			name = "Conditional Structures";
 			productName = "Conditional Structures";
-			productReference = 773D7B3B28D0F28E001A299E /* Conditional_Structures.framework */;
+			productReference = 773D7B8B28D0F7F6001A299E /* Conditional_Structures.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12E928CA58F60027C22A /* Conditional StructuresTests */ = {
@@ -573,7 +573,7 @@
 			);
 			name = "Conditional StructuresTests";
 			productName = "Conditional StructuresTests";
-			productReference = 773D7B3C28D0F28E001A299E /* Conditional StructuresTests.xctest */;
+			productReference = 773D7B8C28D0F7F6001A299E /* Conditional StructuresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF132B28CAA4A30027C22A /* Loops */ = {
@@ -591,7 +591,7 @@
 			);
 			name = Loops;
 			productName = Loops;
-			productReference = 773D7B3D28D0F28E001A299E /* Loops.framework */;
+			productReference = 773D7B8D28D0F7F6001A299E /* Loops.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF133228CAA4A30027C22A /* LoopsTests */ = {
@@ -609,7 +609,7 @@
 			);
 			name = LoopsTests;
 			productName = LoopsTests;
-			productReference = 773D7B3E28D0F28E001A299E /* LoopsTests.xctest */;
+			productReference = 773D7B8E28D0F7F6001A299E /* LoopsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF137128CFE3CC0027C22A /* Arrays */ = {
@@ -627,7 +627,7 @@
 			);
 			name = Arrays;
 			productName = Arrays;
-			productReference = 773D7B3F28D0F28E001A299E /* Arrays.framework */;
+			productReference = 773D7B8F28D0F7F6001A299E /* Arrays.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF137828CFE3CC0027C22A /* ArraysTests */ = {
@@ -645,7 +645,7 @@
 			);
 			name = ArraysTests;
 			productName = ArraysTests;
-			productReference = 773D7B4028D0F28E001A299E /* ArraysTests.xctest */;
+			productReference = 773D7B9028D0F7F6001A299E /* ArraysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

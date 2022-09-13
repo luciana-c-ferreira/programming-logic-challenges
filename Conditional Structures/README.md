@@ -27,6 +27,8 @@ public func oddOrEvenValue(number: Int) -> Bool {
 private func isEven(number: Int) -> Bool {
     var result = false
     
+    result = number % 2 == 0 ? true : false
+    
     return result
 }
 ```
@@ -45,6 +47,8 @@ public func positiveOrNegativeValue(number: Int) -> Bool {
 private func isPositive(number: Int) -> Bool {
     var result = false
     
+    result = number >= 0 ? true : false
+    
     return result
 }
 ```
@@ -62,6 +66,8 @@ public func greaterThanTen(number: Int) -> Bool {
 
 private func isGreaterThanTen(number: Int) -> Bool {
     var result = false
+    
+    result = number > 10 ? true : false
     
     return result
 }
@@ -94,11 +100,15 @@ public func celsiusFahrenheitConverter(value: Int, toUnit: TemptureUnit) -> Int 
 private func toCelsius(fahrenheitValue: Int) -> Int {
     var result = 0
     
+    result = (5 * (fahrenheitValue - 32)) / 9
+    
     return result
 }
 
 private func toFahrenheit(celsiusValue: Int) -> Int {
     var result = 0
+    
+    result = ((celsiusValue * 9) + (5 * 32)) / 5
     
     return result
 }
@@ -137,17 +147,23 @@ public func secondDegreeEquation(a: Int, b: Int, c: Int) -> (x1: Int, x2: Int, d
 private func delta(a: Int, b: Int, c: Int) -> Double {
     var result = 0
     
+    result = (b * b) - (4 * a * c)
+    
     return Double(result)
 }
 
 private func x1(a: Int, b: Int, c: Int) -> Int {
     var result = 0
     
+    result = (-b + Int(delta(a: a, b: b, c: c).squareRoot())) / (2 * a)
+    
     return result
 }
 
 private func x2(a: Int, b: Int, c: Int) -> Int {
     var result = 0
+    
+    result = (-b - Int(delta(a: a, b: b, c: c).squareRoot())) / (2 * a)
     
     return result
 }

@@ -18,14 +18,17 @@ Outro ponto a comentar é a questão dos testes, você verá que é difícil det
 
 ```swift
 public func isPrime(number: Int) -> Bool {
-    
+    for i in 2 ..< number {
+        if isExactDivision(dividend: number, divisor: i) {
+            return false
+        }
+    }
     return true
 }
 
 /// Função que descobre se dois números possuem divisão exata.
 private func isExactDivision(dividend: Int, divisor: Int) -> Bool {
-    
-    return true
+    return dividend % divisor == 0
 }
 ```
 
@@ -48,6 +51,12 @@ O resultado esperado para o número acima seria 8.
 ```swift
 public func addDigits(number: Int) -> Int {
     var result = 0
+    var tmpNumber = number
+    
+    while tmpNumber != 0 {
+        result += tmpNumber % 10
+        tmpNumber /= 10
+    }
     
     return result
 }
@@ -63,8 +72,16 @@ Aconselho a utilizar o **método de divisões sucessivas**, pois você verá que
 
 ```swift
 public func mdc(number1: Int, number2: Int) -> Int {
+    let greater = number1 > number2 ? number1 : number2
+    let less = number1 < number2 ? number1 : number2
+    print("mdc(\(greater), \(less)) = mdc(\(less), \(greater % less))")
     
-    return 0
+    if greater % less == 0 {
+        print("mdc = \(less)\n")
+        return less
+    }
+    
+    return mdc(number1: less, number2: greater % less)
 }
 ```
 
@@ -92,8 +109,10 @@ public func mdc(number1: Int, number2: Int) -> Int {
 
 ```swift
 public func mmc(number1: Int, number2: Int) -> Int {
+    let greater = number1 > number2 ? number1 : number2
+    let less = number1 < number2 ? number1 : number2
     var result = 0
-    
+    result = (greater * less) / mdc(number1: greater, number2: less)
     return result
 }
 ```

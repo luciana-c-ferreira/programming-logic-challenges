@@ -37,12 +37,16 @@
  Agora basta implementar o código e ver os testes passarem.
  
  ```swift
- public func swapTheValueOfTwoVariables() -> (a: Int, b: Int) {
-     var a = 999
-     var b = 555
-     
-     return (a: a, b: b)
- }
+public func swapTheValueOfTwoVariables() -> (a: Int, b: Int) {
+    var a = 999
+    var b = 555
+    
+    let tmp = a
+    a = b
+    b = tmp
+    
+    return (a: a, b: b)
+}
  ```
 
 ## 2. O dobro de um número qualquer
@@ -56,6 +60,8 @@ Este é o segundo exercício da série, nele já vamos utilizar as funções, po
 ```swift
 public func twiceAnyNumber(number: Int) -> Int {
     var result = 0
+    
+    result = number * 2
     
     return result
 }
@@ -74,6 +80,8 @@ Sabendo que a área quadrada é dada pela multiplicação dos lados, escreva um 
 public func squareArea(firstSide: Int, secondSide: Int) -> Int {
     var result = 0
     
+    result = firstSide * secondSide
+    
     return result
 }
 ```
@@ -86,6 +94,9 @@ Exercício de lógica de programação para calcular o sucessor e o antecessor d
 public func predecessorAndSuccessorOfAnyNumber(number: Int) -> (predecessor: Int, successor: Int) {
     var predecessor = 0
     var successor = 0
+    
+    predecessor = number - 1
+    successor = number + 1
     
     return (predecessor: predecessor, successor: successor)
 }
@@ -101,6 +112,8 @@ Utilize as variáveis `number1`, `number2` e `number3`.
 public func simpleAverageOfThreeNumbers(number1: Int, number2: Int, number3: Int) -> Int {
     var result = 0
     
+    result = (number1 + number2 + number3) / 3
+    
     return result
 }
 ```
@@ -112,6 +125,8 @@ Considerando que todos os meses tenham 30 dias, calcular o total de dias de `n` 
 ```swift
 public func discoverTheDaysOfNMonths(nMoths: Int) -> Int {
     var result = 0
+    
+    result = nMoths * 30
     
     return result
 }
