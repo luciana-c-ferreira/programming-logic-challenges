@@ -14,6 +14,13 @@
 		75F080AD28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080AC28C92CD300139EF6 /* 4.PredecessorAndSuccessorOfAnyNumber.swift */; };
 		75F080AF28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080AE28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift */; };
 		75F080B128C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F080B028C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift */; };
+		773D7B5328D0F2DF001A299E /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B5228D0F2DF001A299E /* StringsTests.swift */; };
+		773D7B5C28D0F33F001A299E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 773D7B5B28D0F33F001A299E /* README.md */; };
+		773D7B5F28D0F4D5001A299E /* 1.CountString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B5E28D0F4D5001A299E /* 1.CountString.swift */; };
+		773D7B6228D0F4E3001A299E /* 2.CountVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B6128D0F4E3001A299E /* 2.CountVowels.swift */; };
+		773D7B6428D0F4F3001A299E /* 3.CompareTwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B6328D0F4F3001A299E /* 3.CompareTwoStrings.swift */; };
+		773D7B6628D0F50B001A299E /* 4.ConcatenateTwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B6528D0F50B001A299E /* 4.ConcatenateTwoStrings.swift */; };
+		773D7B6828D0F51D001A299E /* 5.InvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773D7B6728D0F51D001A299E /* 5.InvertString.swift */; };
 		77BF12BD28C99FB00027C22A /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12BC28C99FB00027C22A /* FunctionsTests.swift */; };
 		77BF12C728C9A0220027C22A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77BF12C628C9A0220027C22A /* README.md */; };
 		77BF12CA28C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */; };
@@ -48,6 +55,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 75F0808C28C924F600139EF6;
 			remoteInfo = Variables;
+		};
+		773D7B4F28D0F2DF001A299E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F0805828C9227600139EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773D7B4528D0F2DF001A299E;
+			remoteInfo = Strings;
 		};
 		77BF12B928C99FB00027C22A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -90,6 +104,25 @@
 		75F080AE28C92E8600139EF6 /* 5.SimpleAverageOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.SimpleAverageOfThreeNumbers.swift; sourceTree = "<group>"; };
 		75F080B028C92FE000139EF6 /* 6.DiscoverTheDaysOfNMonths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.DiscoverTheDaysOfNMonths.swift; sourceTree = "<group>"; };
 		75F080B228C932E300139EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		773D7B3728D0F28E001A299E /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
+		773D7B3828D0F28E001A299E /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B3928D0F28E001A299E /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
+		773D7B3A28D0F28E001A299E /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B3B28D0F28E001A299E /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
+		773D7B3C28D0F28E001A299E /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B3D28D0F28E001A299E /* Loops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loops.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Loops.framework"; sourceTree = "<absolute>"; };
+		773D7B3E28D0F28E001A299E /* LoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoopsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/LoopsTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B3F28D0F28E001A299E /* Arrays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arrays.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Arrays.framework"; sourceTree = "<absolute>"; };
+		773D7B4028D0F28E001A299E /* ArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArraysTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/ArraysTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B5228D0F2DF001A299E /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		773D7B5B28D0F33F001A299E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		773D7B5D28D0F4D5001A299E /* Strings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Strings.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Strings.framework"; sourceTree = "<absolute>"; };
+		773D7B5E28D0F4D5001A299E /* 1.CountString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.CountString.swift; sourceTree = "<group>"; };
+		773D7B6028D0F4D5001A299E /* StringsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StringsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/StringsTests.xctest"; sourceTree = "<absolute>"; };
+		773D7B6128D0F4E3001A299E /* 2.CountVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CountVowels.swift; sourceTree = "<group>"; };
+		773D7B6328D0F4F3001A299E /* 3.CompareTwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.CompareTwoStrings.swift; sourceTree = "<group>"; };
+		773D7B6528D0F50B001A299E /* 4.ConcatenateTwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.ConcatenateTwoStrings.swift; sourceTree = "<group>"; };
+		773D7B6728D0F51D001A299E /* 5.InvertString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.InvertString.swift; sourceTree = "<group>"; };
 		77BF12BC28C99FB00027C22A /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		77BF12C628C9A0220027C22A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		77BF12C928C9A0EF0027C22A /* 1.FunctionsForTheFourArithmeticOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.FunctionsForTheFourArithmeticOperations.swift; sourceTree = "<group>"; };
@@ -116,16 +149,6 @@
 		77BF138F28CFE7460027C22A /* 3.AlgorithmToCopyAVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.AlgorithmToCopyAVector.swift; sourceTree = "<group>"; };
 		77BF139128CFE7670027C22A /* 4.HighestAndLowestVectorIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.HighestAndLowestVectorIndex.swift; sourceTree = "<group>"; };
 		77BF139328CFE7830027C22A /* 5.RepeatedValuesInVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.RepeatedValuesInVector.swift; sourceTree = "<group>"; };
-		77BF139D28CFE7FA0027C22A /* Variables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Variables.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Variables.framework"; sourceTree = "<absolute>"; };
-		77BF139E28CFE7FA0027C22A /* VariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariablesTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/VariablesTests.xctest"; sourceTree = "<absolute>"; };
-		77BF139F28CFE7FA0027C22A /* Functions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Functions.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Functions.framework"; sourceTree = "<absolute>"; };
-		77BF13A028CFE7FA0027C22A /* FunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunctionsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/FunctionsTests.xctest"; sourceTree = "<absolute>"; };
-		77BF13A128CFE7FA0027C22A /* Conditional_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Conditional_Structures.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional_Structures.framework"; sourceTree = "<absolute>"; };
-		77BF13A228CFE7FA0027C22A /* Conditional StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Conditional StructuresTests.xctest"; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Conditional StructuresTests.xctest"; sourceTree = "<absolute>"; };
-		77BF13A328CFE7FA0027C22A /* Loops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loops.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Loops.framework"; sourceTree = "<absolute>"; };
-		77BF13A428CFE7FA0027C22A /* LoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LoopsTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/LoopsTests.xctest"; sourceTree = "<absolute>"; };
-		77BF13A528CFE7FA0027C22A /* Arrays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arrays.framework; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/Arrays.framework"; sourceTree = "<absolute>"; };
-		77BF13A628CFE7FA0027C22A /* ArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArraysTests.xctest; path = "/Users/rafael.escaleira/Documents/programming-logic-challenges/build/Debug/ArraysTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +160,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75F0809228C924F600139EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D7B4328D0F2DF001A299E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D7B4A28D0F2DF001A299E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,6 +252,8 @@
 				77BF133728CAA4A30027C22A /* LoopsTests */,
 				77BF137328CFE3CC0027C22A /* Arrays */,
 				77BF137D28CFE3CC0027C22A /* ArraysTests */,
+				773D7B4728D0F2DF001A299E /* Strings */,
+				773D7B5128D0F2DF001A299E /* StringsTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +279,27 @@
 				75F0809C28C924F600139EF6 /* Info.plist */,
 			);
 			path = VariablesTests;
+			sourceTree = "<group>";
+		};
+		773D7B4728D0F2DF001A299E /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				773D7B5B28D0F33F001A299E /* README.md */,
+				773D7B5E28D0F4D5001A299E /* 1.CountString.swift */,
+				773D7B6128D0F4E3001A299E /* 2.CountVowels.swift */,
+				773D7B6328D0F4F3001A299E /* 3.CompareTwoStrings.swift */,
+				773D7B6528D0F50B001A299E /* 4.ConcatenateTwoStrings.swift */,
+				773D7B6728D0F51D001A299E /* 5.InvertString.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		773D7B5128D0F2DF001A299E /* StringsTests */ = {
+			isa = PBXGroup;
+			children = (
+				773D7B5228D0F2DF001A299E /* StringsTests.swift */,
+			);
+			path = StringsTests;
 			sourceTree = "<group>";
 		};
 		77BF12B128C99FB00027C22A /* Functions */ = {
@@ -334,6 +394,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		773D7B4128D0F2DF001A299E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77BF12AB28C99FB00027C22A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,7 +447,7 @@
 			);
 			name = Variables;
 			productName = Variables;
-			productReference = 77BF139D28CFE7FA0027C22A /* Variables.framework */;
+			productReference = 773D7B3728D0F28E001A299E /* Variables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75F0809428C924F600139EF6 /* VariablesTests */ = {
@@ -398,7 +465,43 @@
 			);
 			name = VariablesTests;
 			productName = VariablesTests;
-			productReference = 77BF139E28CFE7FA0027C22A /* VariablesTests.xctest */;
+			productReference = 773D7B3828D0F28E001A299E /* VariablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773D7B4528D0F2DF001A299E /* Strings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D7B5528D0F2DF001A299E /* Build configuration list for PBXNativeTarget "Strings" */;
+			buildPhases = (
+				773D7B4128D0F2DF001A299E /* Headers */,
+				773D7B4228D0F2DF001A299E /* Sources */,
+				773D7B4328D0F2DF001A299E /* Frameworks */,
+				773D7B4428D0F2DF001A299E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strings;
+			productName = Strings;
+			productReference = 773D7B5D28D0F4D5001A299E /* Strings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		773D7B4C28D0F2DF001A299E /* StringsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D7B5828D0F2DF001A299E /* Build configuration list for PBXNativeTarget "StringsTests" */;
+			buildPhases = (
+				773D7B4928D0F2DF001A299E /* Sources */,
+				773D7B4A28D0F2DF001A299E /* Frameworks */,
+				773D7B4B28D0F2DF001A299E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773D7B5028D0F2DF001A299E /* PBXTargetDependency */,
+			);
+			name = StringsTests;
+			productName = StringsTests;
+			productReference = 773D7B6028D0F4D5001A299E /* StringsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12AF28C99FB00027C22A /* Functions */ = {
@@ -416,7 +519,7 @@
 			);
 			name = Functions;
 			productName = Functions;
-			productReference = 77BF139F28CFE7FA0027C22A /* Functions.framework */;
+			productReference = 773D7B3928D0F28E001A299E /* Functions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12B628C99FB00027C22A /* FunctionsTests */ = {
@@ -434,7 +537,7 @@
 			);
 			name = FunctionsTests;
 			productName = FunctionsTests;
-			productReference = 77BF13A028CFE7FA0027C22A /* FunctionsTests.xctest */;
+			productReference = 773D7B3A28D0F28E001A299E /* FunctionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF12E228CA58F60027C22A /* Conditional Structures */ = {
@@ -452,7 +555,7 @@
 			);
 			name = "Conditional Structures";
 			productName = "Conditional Structures";
-			productReference = 77BF13A128CFE7FA0027C22A /* Conditional_Structures.framework */;
+			productReference = 773D7B3B28D0F28E001A299E /* Conditional_Structures.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF12E928CA58F60027C22A /* Conditional StructuresTests */ = {
@@ -470,7 +573,7 @@
 			);
 			name = "Conditional StructuresTests";
 			productName = "Conditional StructuresTests";
-			productReference = 77BF13A228CFE7FA0027C22A /* Conditional StructuresTests.xctest */;
+			productReference = 773D7B3C28D0F28E001A299E /* Conditional StructuresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF132B28CAA4A30027C22A /* Loops */ = {
@@ -488,7 +591,7 @@
 			);
 			name = Loops;
 			productName = Loops;
-			productReference = 77BF13A328CFE7FA0027C22A /* Loops.framework */;
+			productReference = 773D7B3D28D0F28E001A299E /* Loops.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF133228CAA4A30027C22A /* LoopsTests */ = {
@@ -506,7 +609,7 @@
 			);
 			name = LoopsTests;
 			productName = LoopsTests;
-			productReference = 77BF13A428CFE7FA0027C22A /* LoopsTests.xctest */;
+			productReference = 773D7B3E28D0F28E001A299E /* LoopsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77BF137128CFE3CC0027C22A /* Arrays */ = {
@@ -524,7 +627,7 @@
 			);
 			name = Arrays;
 			productName = Arrays;
-			productReference = 77BF13A528CFE7FA0027C22A /* Arrays.framework */;
+			productReference = 773D7B3F28D0F28E001A299E /* Arrays.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		77BF137828CFE3CC0027C22A /* ArraysTests */ = {
@@ -542,7 +645,7 @@
 			);
 			name = ArraysTests;
 			productName = ArraysTests;
-			productReference = 77BF13A628CFE7FA0027C22A /* ArraysTests.xctest */;
+			productReference = 773D7B4028D0F28E001A299E /* ArraysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -551,7 +654,7 @@
 		75F0805828C9227600139EF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					75F0808C28C924F600139EF6 = {
@@ -560,6 +663,13 @@
 					};
 					75F0809428C924F600139EF6 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					773D7B4528D0F2DF001A299E = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+					773D7B4C28D0F2DF001A299E = {
+						CreatedOnToolsVersion = 14.0;
 					};
 					77BF12AF28C99FB00027C22A = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -614,6 +724,8 @@
 				77BF133228CAA4A30027C22A /* LoopsTests */,
 				77BF137128CFE3CC0027C22A /* Arrays */,
 				77BF137828CFE3CC0027C22A /* ArraysTests */,
+				773D7B4528D0F2DF001A299E /* Strings */,
+				773D7B4C28D0F2DF001A299E /* StringsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -627,6 +739,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75F0809328C924F600139EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D7B4428D0F2DF001A299E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D7B5C28D0F33F001A299E /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D7B4B28D0F2DF001A299E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -716,6 +843,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		773D7B4228D0F2DF001A299E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D7B5F28D0F4D5001A299E /* 1.CountString.swift in Sources */,
+				773D7B6228D0F4E3001A299E /* 2.CountVowels.swift in Sources */,
+				773D7B6428D0F4F3001A299E /* 3.CompareTwoStrings.swift in Sources */,
+				773D7B6628D0F50B001A299E /* 4.ConcatenateTwoStrings.swift in Sources */,
+				773D7B6828D0F51D001A299E /* 5.InvertString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D7B4928D0F2DF001A299E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D7B5328D0F2DF001A299E /* StringsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77BF12AC28C99FB00027C22A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -801,6 +948,11 @@
 			isa = PBXTargetDependency;
 			target = 75F0808C28C924F600139EF6 /* Variables */;
 			targetProxy = 75F0809728C924F600139EF6 /* PBXContainerItemProxy */;
+		};
+		773D7B5028D0F2DF001A299E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773D7B4528D0F2DF001A299E /* Strings */;
+			targetProxy = 773D7B4F28D0F2DF001A299E /* PBXContainerItemProxy */;
 		};
 		77BF12BA28C99FB00027C22A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1027,6 +1179,103 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucianaferreira.VariablesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		773D7B5628D0F2DF001A299E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.Strings;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		773D7B5728D0F2DF001A299E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.Strings;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		773D7B5928D0F2DF001A299E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.StringsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		773D7B5A28D0F2DF001A299E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.StringsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1445,6 +1694,24 @@
 			buildConfigurations = (
 				75F080A228C924F600139EF6 /* Debug */,
 				75F080A328C924F600139EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D7B5528D0F2DF001A299E /* Build configuration list for PBXNativeTarget "Strings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D7B5628D0F2DF001A299E /* Debug */,
+				773D7B5728D0F2DF001A299E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D7B5828D0F2DF001A299E /* Build configuration list for PBXNativeTarget "StringsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D7B5928D0F2DF001A299E /* Debug */,
+				773D7B5A28D0F2DF001A299E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

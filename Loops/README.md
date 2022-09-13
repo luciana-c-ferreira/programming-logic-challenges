@@ -17,6 +17,16 @@ Os problemas (e as soluções) envolvendo os números primos são fascinantes e 
 Outro ponto a comentar é a questão dos testes, você verá que é difícil determinar o quanto de testes seriam suficientes para garantir o correto funcionamento do algoritmo.
 
 ```swift
+public func isPrime(number: Int) -> Bool {
+    
+    return true
+}
+
+/// Função que descobre se dois números possuem divisão exata.
+private func isExactDivision(dividend: Int, divisor: Int) -> Bool {
+    
+    return true
+}
 ```
 
 ## 2. Somar dígitos 
@@ -36,6 +46,11 @@ Somar dígitos significa que dados um número qualquer, exemplo, 2015, devemos s
 O resultado esperado para o número acima seria 8.
 
 ```swift
+public func addDigits(number: Int) -> Int {
+    var result = 0
+    
+    return result
+}
 ```
 
 ## 3. MDC - Máximo divisor comum 
@@ -47,6 +62,10 @@ Faça um programa para calcular o MDC (máximo divisor comum) entre dois número
 Aconselho a utilizar o **método de divisões sucessivas**, pois você verá que a forma como costumamos resolver problemas matemáticos na mão nem sempre é o melhor caminho quando estamos codificando.
 
 ```swift
+public func mdc(number1: Int, number2: Int) -> Int {
+    
+    return 0
+}
 ```
 
 ## 4. MMC - Mínimo múltiplo comum 
@@ -72,4 +91,9 @@ Aconselho a utilizar o **método de divisões sucessivas**, pois você verá que
  Quando dois números `n1` e `n2` satisfazem `mdc(n1, n2) = 1`, dizemos que `n1` e `n2` são primos entre si ou coprimos. Isso significa que não existe nenhum número maior do que 1 que divide `n1` e `n2` simultaneamente.
 
 ```swift
+public func mmc(number1: Int, number2: Int) -> Int {
+    var result = 0
+    
+    return result
+}
 ```
